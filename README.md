@@ -6,8 +6,8 @@ Ubuntu Touch allows you to "protect" devices with a 4-digit passcode. Such a cod
 becomes a password that we can use with the sudo command and gain root privileges.
 
 This means that a malicious application can do us double harm:
-1. Easy escalation of privilages and taking control of the device.
-2. Give the screen unlock passcode to a third party.
+1. Easily escalate privileges and take control of the device.
+2. It can pass the screen unlock passcode to a third party.
 
 My PoC is trivial but it perfectly illustrates the essence of the problem.
 
