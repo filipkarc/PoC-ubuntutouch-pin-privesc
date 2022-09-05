@@ -9,7 +9,12 @@ This means that a malicious application can do us double harm:
 1. Easily escalate privileges and take control of the device.
 2. It can pass the screen unlock passcode to a third party.
 
-My PoC is trivial but it perfectly illustrates the essence of the problem.
+## How does my Proof of Concept work?
+
+1. We run poc.py as a regular user.
+2. App is doing bruteforce attack on password. No rate limit in system!
+3. Passcode to unlock the screen = password for sudo su to obtain root.
+4. After 1-2 minutes we have passcode on the screen, which we also save to the file /root/passcode as evidence of system compromise.
 
 ## Contact
 
