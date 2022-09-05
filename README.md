@@ -1,6 +1,6 @@
 ![screen](img/ubuntutouch.gif)
 
-## Proof of Concept: Privilage escalation in Ubuntu Touch 16.04 - by Passcode Bruteforce 
+## Proof of Concept: Privilege escalation in Ubuntu Touch 16.04 - by Passcode Bruteforce 
 
 Ubuntu Touch allows you to "protect" devices with a 4-digit passcode. Such a code was set in a demonstration device. The problem is that the same 4-digit passcode then 
 becomes a password that we can use with the sudo command and gain root privileges.
