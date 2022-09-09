@@ -1,5 +1,7 @@
 ![screen](img/ubuntutouch.gif)
 
+[UPDATE 09.09.2022] I got new CVE for this vulnerability: [CVE-2022-40297](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40297).
+
 ## Proof of Concept: Privilege escalation in Ubuntu Touch 16.04 - by Passcode Bruteforce 
 
 Ubuntu Touch allows you to "protect" devices with a 4-digit passcode. Such a code was set in a demonstration device. The problem is that the same 4-digit passcode then 
