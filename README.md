@@ -18,11 +18,10 @@ This means that a malicious application can do us double harm:
 3. Passcode to unlock the screen = password for sudo su to obtain root.
 4. After 1-2 minutes we have passcode on the screen, which we also save to the file /root/passcode as evidence of system compromise.
 
-## Contact
+## Follow me
 
-Feel free to contact me on [Twitter @FilipKarc](https://twitter.com/FilipKarc).
+Follow me on [Twitter @FilipKarc](https://twitter.com/FilipKarc) and on LinkedIn: [LinkedIn](https://www.linkedin.com/in/filip-karczewski/).
 
-Be sure to follow me on LinkedIn: [LinkedIn](https://www.linkedin.com/in/filip-karczewski/).
 
 
 ![screen](img/screen2.png)
